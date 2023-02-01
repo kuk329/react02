@@ -24,3 +24,15 @@
 // 이때 children은 함수만 가능
 // Draggable : 드래그할수 있는 영역 ->  draggableId & index & children 필요
 // 이때 children은 함수만 가능
+
+// onDragEnd 함수는 drag가 끝났을때 실행됨.
+// 드래그가 끝났을때 드래그 한 결과에 맞춰 순서를 변경하고싶을때
+
+// Javascript 문법
+// 배열 다루기
+// pop() : 배열의 가장 끝에 항목 삭제
+// shift() : 배열의 가장 첫번째 항목 삭제
+// splice() : 배열의 특정한 인덱스에 값을 삭제하거나 추가
+// filter() : 특정 조건에 맞는 값들만 모아서 새 배열로 반환
+// ex. const words = ['spray','limit','react','js','spring'];
+// const result = words.filter(word=>word.length>6);
